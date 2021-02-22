@@ -7,18 +7,30 @@ body{
   margin-top: 100px;
   text-align: center;
   font-family: 'Barlow Condensed', sans-serif;
-  font-size: 16px
-
+  font-size: 30px;
 }
 h1 {
   color: white;
   text-align: center;
   font-family: museo-sans, sans-serif;
-font-weight: 700;
-font-style: normal;
-font-size: 16px;
+  font-style: normal;
+  font-size: 60px;
 }
-a{
+h3{
+  color: darkslateblue;
+  text-align: center;
+  font-family: museo-sans, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 40px;
+}
+a:link{
   color: mediumblue;
 }
-a:hover
+a:hover{
+  color: purple;
+  font-style: italic;
+}
+a:visited{
+  color: maroon;
+}
