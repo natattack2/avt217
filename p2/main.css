@@ -1,0 +1,11 @@
+body{
+  background-color: pink;
+}
+
+/* media query */
+
+@media screen and  (max-width:1000px) {
+  body{
+    background-color: red
+  }
+}
