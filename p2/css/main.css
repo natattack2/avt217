@@ -7,10 +7,13 @@ body{
 @media screen and  (max-width:320px) {
   body{
     background-color: red
-    padding:0;
-		background:#248;
   }
 }
+@media (max-width:38em) {
+	body {
+		padding:0;
+		background:#248;
+	}
 	#mainMenu {
 		display:none;
 		overflow:hidden; /* wrap floats and margins */
