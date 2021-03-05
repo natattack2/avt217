@@ -4,8 +4,53 @@ body{
 
 /* media query */
 
-@media screen and  (max-width:500px) {
+@media screen and  (max-width:320px) {
   body{
     background-color: red
+    padding:0;
+		background:#248;
   }
+}
+	#mainMenu {
+		display:none;
+		overflow:hidden; /* wrap floats and margins */
+		padding:0.25em;
+		border-top:2px solid #248;
+	}
+	#mainMenu li {
+		float:left;
+		width:50%;
+	}
+	#mainMenu a {
+		display:block;
+		padding:0.75em;
+		margin:0.25em;
+		background:#DEF;
+	}
+	#menuShowHide + label {
+		display:block;
+		padding:1em;
+		margin-bottom:1em;
+		text-align:center;
+		font-weight:bold;
+		background:#036;
+		color:#FFF;
+	}
+	#menuShowHide + label:active,
+	#menuShowHide + label:focus,
+	#menuShowHide + label:hover {
+		background:#06C;
+	}
+	#menuShowHide + label:before {
+		content:"Show menu";
+	}
+	#menuShowHide:checked + label {
+		margin:0;
+	}
+	#menuShowHide:checked + label:before {
+		content:"Hide Menu";
+	}
+	#menuShowHide:checked ~ #mainMenu {
+		display:block;
+	}
 }
