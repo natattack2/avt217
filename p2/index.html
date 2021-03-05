@@ -1,6 +1,35 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+      <style media="screen">
+              ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: maroon;
+          }
+
+          li {
+          float: left;
+          }
+
+          li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          }
+
+          li a:hover:not(.active) {
+          background-color: darkred;
+          }
+
+          .active {
+          background-color: white;
+          }
+      </style>
     <meta charset="utf-8">
     <meta name="viewport"
       content="width=device-width, initial-scale=1">
@@ -9,6 +38,14 @@
     <link rel="stylesheet" href="/css/main.css">
   </head>
   <body>
-<h1 id="signature">The Velvet Velvet</h1>
+    <ul>
+      <li><a href="default.asp">Home</a></li>
+      <li><a href="about/index.html">About</a></li>
+      <li><a href="exhibits/index.html">Exhibitions</a></li>
+      <li><a href="shop/index.html">Shop</a></li>
+    </ul>
+    <img src="images/space.jpg" style="max-width:100%;height:auto;">
+    <h1 id="signature">The Velvet Velvet</h1>
+    <h3>Welcome to The Velvet Velvet</h3>
   </body>
 </html>
