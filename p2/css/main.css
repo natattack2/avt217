@@ -43,3 +43,12 @@ li a {
 li a:hover {
   background-color: #111;
 }
+.alignleft{
+  float: left;
+}
+.alignright{
+  float: right;
+}
+style{
+  clear: both;
+}
