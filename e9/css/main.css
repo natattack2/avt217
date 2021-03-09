@@ -1,0 +1,127 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mSquare{
+  width: 100px;
+  height: 100px;
+  background-color: skyblue;
+  border: 10px solid skyblue;
+  margin:-15px;
+  opacity: .75;
+  float:left;
+}
+.ySquare{
+  width: 100px;
+  height: 100px;
+  background-color: skyblue;
+  border: 10px solid skyblue;
+  margin:-15px;
+  opacity: .75;
+  float:left;
+  border-radius: 50%;
+}
+.cSquare{
+  width: 100px;
+  height: 100px;
+  background-color: skyblue;
+  border: 10px solid skyblue;
+  margin:-15px;
+  opacity: .75;
+  float:left;
+}
+.kSquare{
+  width: 100px;
+  height: 100px;
+  background-color: skyblue;
+  border: 10px solid skyblue;
+  margin:-15px;
+  opacity: .75;
+  float:left;
+}

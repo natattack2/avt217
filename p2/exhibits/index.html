@@ -7,14 +7,103 @@
     <title></title>
     <link rel="stylesheet" href="/css/main.css">
       <style media="screen">
+      div.gallery {
+          border: 1px solid darkred;
+          }
+
+          div.gallery:hover {
+          border: 1px solid darkred;
+          }
+
+          div.gallery img {
+          width: 100%;
+          height: auto;
+          }
+
+          div.desc {
+          padding: 15px;
+          text-align: center;
+          }
+
+          * {
+          box-sizing: border-box;
+          }
+
+          .responsive {
+          padding: 0 6px;
+          float: left;
+          width: 24.99999%;
+          }
+
+          @media only screen and (max-width: 700px) {
+          .responsive {
+            width: 49.99999%;
+            margin: 6px 0;
+          }
+          }
+
+          @media only screen and (max-width: 500px) {
+          .responsive {
+            width: 100%;
+          }
+          }
+
+          .clearfix:after {
+          content: "";
+          display: table;
+          clear: both;
+          }
         .footer {
         background-color: maroon;
         text-align: center;
         padding: 10px;
         }
+
     </style>
   </head>
   <body>
     <h1>Current Exhibitions</h1>
-  </body>
+
+<div class="responsive">
+<div class="gallery">
+  <a target="_blank" href="../images/splash.jpg">
+    <img src="../images/splash.jpg" alt="yellow splash" style="max-width:100%;height:auto;">
+  </a>
+  <div class="desc"></div>
+</div>
+</div>
+
+
+<div class="responsive">
+<div class="gallery">
+  <a target="_blank" href="../images/geometric.jpg">
+    <img src="../images/geometric.jpg" alt="triangular geometric" style="max-width:100%;height:auto;">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+</div>
+
+<div class="responsive">
+<div class="gallery">
+  <a target="_blank" href="../images/photo.jpg">
+    <img src="../images/photo.jpg" alt="stringed photos" style="max-width:100%;height:auto;">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+</div>
+
+<div class="responsive">
+<div class="gallery">
+  <a target="_blank" href="../images/architecture.jpg">
+    <img src="../images/architecture.jpg" alt="cool struture" style="max-width:100%;height:auto;">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+</div>
+
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+<p></p>
+</div>
 </html>
