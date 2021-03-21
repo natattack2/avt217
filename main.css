@@ -25,13 +25,10 @@ header{
   .col{
     width: 50%;
     float: left;
-    border: double;
-    border-color: midnightblue;
-  }
-  .ba{
-    list-style-type: none;
-  }
+    box-shadow: 0 0 0 5px black;
+    outline: dashed 5px pink;
 
+  }
 
 /******type styles******/
 h1{
@@ -48,3 +45,32 @@ h2{
   font-weight: 400;
   font-style: normal;
 }
+
+/******list styles******/
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+/******media queries******/
+@media screen and (max-width: 900px) {
+  .col{
+    width: 100%;
+    margin-bottom: 50px;
+    outline: dashed 5px skyblue;
+  }
+  header{
+    width: 90vw;
+  }
+  main{
+    width: 90vw;
+  }
+  h1{
+    font-size: 3rem;
+  }
+  body{
+    background-color: pink;
+  }
+ }
