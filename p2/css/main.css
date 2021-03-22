@@ -1,15 +1,46 @@
 @media screen
 
-
-*{
-  margin: 0;
-  padding: 0;
+body{
+  background-color: pink;
+  margin: 0px;
+  padding: 0px
 }
-#header{
-    height: 100px;
-    background-image: url(images/clear.jpg);
-    background-postiion: center;
-    background-size:
-
-
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+section{
+  width: 100%;
+  height: 95vh;
+  background-image:url("../images/white.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: red;
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.2)
+  padding: 0px 5%
+}
+nav ul{
+  display: flex;
+}
+nav ul li a{
+  margin: 30px;
+  font-family: myriad pro regular;
+  color: orange;
+  font-size: 15px;
+  font-weight: 700;
+}
+.logo{
+  font-family:
+  color:pink
+  font-size: 22px
+}
+.active{
+  font-weight: 
 }
