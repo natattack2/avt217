@@ -6,6 +6,11 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #333333;
+
+#signature {
+   background-color: #ffd700;
+}
+
 }
 main {
   width: 70vw;
@@ -66,9 +71,15 @@ p {
 a, a:link, a:visited, a:active {
   color: black;
   text-decoration: none;
+
 }
 a:hover {
   color: tomato;
+
+}
+a{
+  border-style: solid: 1px;
+  border-color: tomato;
 }
 
 /* button styles */
