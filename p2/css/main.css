@@ -32,6 +32,12 @@ main {
   margin: 25px auto;
   display: flow-root;
 }
+footer{
+  width: 75vw;
+  margin: 25px auto;
+  padding: 0 25px;
+  background-color: black;
+}
 .col {
   width: 50%;
   float: left;
