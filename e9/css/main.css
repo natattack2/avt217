@@ -1,15 +1,35 @@
 .kSquare{
-width: 100px;
-height: 100px;
-background-color: #0e737f;
-opacity: .5;
+width: 30px;
+height: 50px;
+background-color: green;
+opacity: 5;
 float: left;
-margin: -20px;
+margin: 30px;
 }
 .mSquare{
-
+  width: 100px;
+  height: 20px;
+  background-color: pink;
+  opacity: .5;
+  float: left;
+  margin: 20px;
 }
-.ySquare
+.ySquare{
+  width: 20px;
+  height: 600px;
+  background-color: yellow;
+  opacity: .5;
+  float: left;
+  margin: -10px;
+}
+.cSquare{
+  width: 90px;
+  height: 70px;
+  background-color: purple;
+  opacity: .5;
+  float: left;
+  margin: -5px;
+}
 
 
 
