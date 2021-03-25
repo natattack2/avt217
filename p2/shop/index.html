@@ -6,48 +6,19 @@
     <link rel="stylesheet" href="main.css">
     <title>The Velvet Velvet</title>
   </head>
-  <style>
-body {margin: 0;}
-
-ul.topnav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-
-ul.topnav li {float: left;}
-
-ul.topnav li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-ul.topnav li a:hover:not(.active) {background-color: #111;}
-
-ul.topnav li a.active {background-color: #4CAF50;}
-
-ul.topnav li.right {float: right;}
-
-@media screen and (max-width: 600px) {
-  ul.topnav li.right,
-  ul.topnav li {float: none;}
-}
-</style>
   <body>
     <!-- Navigation (Stays on Top) -->
-    <ul>
-      <div class="w3-top w3-bar w3-black">
-        <li><a href="../index.html" class="main">Home</a></li>
-        <li><a href="../about/index.html" class="main">About</a></li>
-        <li><a href="../exhibits/index.html" class="main">Exhibits</a></li>
-        <li><a href="shop/index.html" class="main">Shop</a></li>
-      </div>
+    <header class="header">
+  <a href="../index.html" class="logo">The Velvet Velvet</a>
+  <input class="menu-btn" id="menu-btn" />
+  <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+  <ul class="menu">
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="../about/index.html">About</a></li>
+    <li><a href="../exhibits/index.html">Exhibits</a></li>
+    <li><a href="shop/index.html">Shop</a></li>
   </ul>
+</header>
 
     <!-- !PAGE CONTENT! -->
 <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
