@@ -6,7 +6,7 @@ html {
   font-size: 16px;
 }
 body {
-  background-color: white;
+  background-color: beige;
   font-family: 'Lato', sans-serif;
   margin: 0;
 }
@@ -54,6 +54,13 @@ h2 {
   font-family: 'Space Mono', monospace;
   font-weight: 700;
 }
+h3{
+  font-size: 18px;
+  text-align: center;
+}
+.intro{
+  font-size: 12px;
+}
 
 /****** link styles ******/
 a:link, a:visited {
@@ -88,6 +95,7 @@ li a {
 /****** image styles ******/
 img {
   max-width: 50%;
+
 
 }
 
