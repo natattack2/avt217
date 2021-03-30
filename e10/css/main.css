@@ -1,0 +1,72 @@
+/*Checkerboard*/
+.one {
+width: 100px;
+height: 100px;
+background-color: skyblue;
+float: left;
+}
+
+.two {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+  float: left;
+}
+.board {
+  width: 800px;
+  display: flow-root;
+  margin: 100px auto;
+}
+
+/*3 Coluumn Grid*/
+.three {
+  width: 780px;
+  height: 100px;
+  background-color: beige;
+  margin-left: 10px;
+  margin-bottom: 10px
+}
+
+.four {
+  width: 780px;
+  height: 25px;
+  background-color: chocolate;
+  margin-left: 10px;
+  margin-bottom: 10px
+}
+
+.five {
+  width: 254px;
+  height: 800px;
+  background-color: chocolate;
+  margin-left: 10px;
+  float: left
+}
+
+.six {
+  width: 254px;
+  height: 800px;
+  background-color: chocolate;
+  margin-left: 10px;
+  float: left;
+}
+
+.seven {
+  width: 254px;
+  height: 800px;
+  background-color: chocolate;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  float: left;
+}
+
+.eight {
+  width: 780px;
+  height: 100px;
+  background-color: beige;
+  margin-left: 10px;
+  float: left;
+}
+footer{
+  display: block;
+}
