@@ -62,7 +62,7 @@ margin: 30px;
   width: 126px;
   height: 180px;
   background-color: yellow;
-  opacity: 5px
+  opacity: 5px;
   border-radius: 50% 40% 30% 50% / 60% 60% 40% 40%;
   float: left;
   margin: 30px;
@@ -70,16 +70,33 @@ margin: 30px;
 
 /*Pattern 3*/
 .shape5{
-
+  width: 500px;
+  height: 300px;
+  background: maroon;
+  float: right;
 }
 .shape6{
-
+  width: 400px;
+  height: 280px;
+  background: green;
+  opacity: 5px;
+  float: left;
 }
 .shape7{
-
+  width: 200;
+  height: 60;
+  border-left: 300px solid blue; opacity: 50%;
+  border-right: 300px solid blue; opacity: 25px;
+  border-top: 350px solid skyblue;
+  float: left;
 }
 .shape8{
-
+  width: 0;
+  height: 0;
+  border-left: 300px solid transparent;
+  border-right: 300px solid transparent;
+  border-bottom: 350px solid midnightblue;
+  float: left;
 }
 
 /*Pattern 4*/
