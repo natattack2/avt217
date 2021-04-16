@@ -1,3 +1,10 @@
+body{
+  margin: 0;
+  padding: 0;
+  width: 100px;
+  height:100px;
+  background: rgb(95, 177, 255)
+}
 /*Forky face*/
 .forky {
   position: absolute;
