@@ -72,3 +72,35 @@ footer{
 }
 
 /*Blog*/
+#blog {
+  width: 800px;
+  margin:100px auto;
+  background-color: cornflowerblue;
+}
+.header {
+  width: 800px;
+  height: 100px;
+  background-color: darkblue;
+  margin-bottom: 50px;
+}
+.content {
+  width:650px;
+  height: 500px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  background-color: mediumblue;
+  float: left;
+}
+.right {
+  width: 125px;
+  height: 200px;
+  background-color: deepskyblue;
+  float: left;
+  }
+.last {
+  width: 650px;
+  height: 50px;
+  background-color: dodgerblue;
+  margin-bottom: 100px;
+  float: left;
+}
