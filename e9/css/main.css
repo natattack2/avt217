@@ -101,16 +101,32 @@ margin: 30px;
 
 /*Pattern 4*/
 .shape9{
-
+  width: 250px;
+  height: 250px;
+  border-top: 100px solid red;
+  border-right: 100px solid transparent;
+  float: left;
 }
 .shape10{
-
+  width: 250px;
+  height: 250px;
+  border-top: 100px solid red;
+  border-left: 100px solid transparent;
+  float: left;
 }
 .shape11{
-
+  width: 250px;
+  height: 250px;
+  border-bottom: 100px solid red;
+  border-right: 100px solid transparent;
+  float: left;
 }
 .shape12{
-
+  width: 250px;
+  height: 250px;
+  border-bottom: 100px solid red;
+  border-left: 100px solid transparent;
+  float: left;
 }
 
 /*Pattern 5*/
