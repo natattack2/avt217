@@ -93,54 +93,56 @@ margin: 30px;
 .shape8{
   width: 0;
   height: 0;
-  border-left: 300px solid transparent;
-  border-right: 300px solid transparent;
+  border-left: 300px solid cornflowerblue;
+  border-right: 300px solid cornflowerblue;
   border-bottom: 350px solid midnightblue;
   float: left;
 }
 
 /*Pattern 4*/
 .shape9{
-  width: 250px;
-  height: 250px;
-  border-top: 100px solid red;
+  width: 0px;
+  height: 0px;
+  border-top: 100px solid deeppink;
   border-right: 100px solid transparent;
   float: left;
 }
 .shape10{
-  width: 250px;
-  height: 250px;
-  border-top: 100px solid red;
+  width: 0px;
+  height: 0px;
+  border-top: 100px solid darkorchid;
   border-left: 100px solid transparent;
   float: left;
 }
 .shape11{
-  width: 250px;
-  height: 250px;
-  border-bottom: 100px solid red;
+  width: 0px;
+  height: 0px;
+  border-bottom: 100px solid darkred;
   border-right: 100px solid transparent;
   float: left;
 }
 .shape12{
-  width: 250px;
-  height: 250px;
-  border-bottom: 100px solid red;
+  width: 0px;
+  height: 0px;
+  border-bottom: 100px solid darkmagenta;
   border-left: 100px solid transparent;
   float: left;
 }
 
 /*Pattern 5*/
 .shape13{
-
+  width: 350px;
+  height: 300px;
+  transform: skew(20deg);
+  background: mediumblue;
+  float: left;
 }
 .shape14{
-
-}
-.shape15{
-
-}
-.shape16{
-
+  width: 350px;
+  height: 300px;
+  transform: skew(-20deg);
+  background: orange;
+  float: left;
 }
 
 
